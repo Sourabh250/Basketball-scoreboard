@@ -79,10 +79,10 @@ function reset() {
 
 function upDateLiveText() {
     if (homeScore > guestScore) {
-        homeTitleEl.style.color = "#F94F6D"
+        homeTitleEl.style.color = "#FE0139"
         guestTitleEl.style.color = "#EEEEEE"
     } else if (homeScore < guestScore) {
-        guestTitleEl.style.color = "#F94F6D"
+        guestTitleEl.style.color = "#FE0139"
         homeTitleEl.style.color = "#EEEEEE"
     } else {
         homeTitleEl.style.color = "#EEEEEE"

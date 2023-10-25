@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="live-game-text">BasketBall Game</div>
+        <div id="timer">00:10</div>
+        <div class="container">
+            <div>
+                <h3 class="board-title" id="board-title-home">HOME</h3>
+                <div class="score-background">
+                    <p class="score-text" id="home-score-text"></p>
+                </div>
+                <div class="container-button">
+                    <button class="btn" onclick="addOneHome()">+1</button>
+                    <button class="btn" onclick="addTwoHome()">+2</button>
+                    <button class="btn" onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="board-title" id="board-title-guest">GUEST</h3>
+                <div class="score-background">
+                    <p class="score-text" id="guest-score-text"></p>
+                </div>
+                <div class="container-button">
+                    <button class="btn" onclick="addOneGuest()">+1</button>
+                    <button class="btn" onclick="addTwoGuest()">+2</button>
+                    <button class="btn" onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="btn-new-game" onclick="reset()">New Game</button>
+        <p  id="live-text"></p>
+        <script src="index.js"></script>
+    </body>
+</html>

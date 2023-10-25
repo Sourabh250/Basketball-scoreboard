@@ -13,6 +13,7 @@ body {
     text-align: center;
     font-family: Cursed;
     text-shadow: 0 0 5px black;
+    height: 100vh;
 }
 
 .container {
@@ -117,6 +118,10 @@ body {
 
 
 @media (max-width: 768px) {
+    body {
+        height: 100%;
+    }
+    
     .container {
         width: 100%; 
         flex-direction: column;

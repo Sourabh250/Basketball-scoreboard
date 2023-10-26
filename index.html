@@ -1,5 +1,5 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -13,9 +13,9 @@
                     <p class="score-text" id="home-score-text"></p>
                 </div>
                 <div class="container-button">
-                    <button class="btn" onclick="addOneHome()">+1</button>
-                    <button class="btn" onclick="addTwoHome()">+2</button>
-                    <button class="btn" onclick="addThreeHome()">+3</button>
+                    <button class="btn" onclick="add(1,'Home')">+1</button>
+                    <button class="btn" onclick="add(2,'Home')">+2</button>
+                    <button class="btn" onclick="add(3,'Home')">+3</button>
                 </div>
             </div>
             <div>
@@ -24,9 +24,9 @@
                     <p class="score-text" id="guest-score-text"></p>
                 </div>
                 <div class="container-button">
-                    <button class="btn" onclick="addOneGuest()">+1</button>
-                    <button class="btn" onclick="addTwoGuest()">+2</button>
-                    <button class="btn" onclick="addThreeGuest()">+3</button>
+                    <button class="btn" onclick="add(1,'Guest')">+1</button>
+                    <button class="btn" onclick="add(2,'Guest')">+2</button>
+                    <button class="btn" onclick="add(3,'Guest')">+3</button>
                 </div>
             </div>
         </div>
